@@ -9,6 +9,7 @@
 <body>
 spring mvc<br/>
 <a href="index">Link</a>
+<a href="home">Home</a>
 <form action="demo" method="post" id="login_form" name="login_form">
 <input type="text" id="username" name="username" placeholder="userName" />
 <input type="submit" value="Submit"/>

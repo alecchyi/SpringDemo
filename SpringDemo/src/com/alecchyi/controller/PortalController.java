@@ -22,9 +22,19 @@ public class PortalController {
 
 	@RequestMapping("index")
 	public ModelAndView index(){
+		System.out.println(22222);
 		ModelAndView mav = new ModelAndView("portal");
 		
 		mav.addObject("abc", "test");
+		return mav;
+	}
+	
+	@RequestMapping("home")
+	public ModelAndView home(){
+		ModelAndView mav = new ModelAndView();
+		mav.addObject("content_page", "/WEB-INF/page/home.jsp");
+		mav.addObject("abc", "test");
+		mav.setViewName("share/layout");
 		return mav;
 	}
 	
