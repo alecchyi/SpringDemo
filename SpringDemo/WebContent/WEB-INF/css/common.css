@@ -1,0 +1,43 @@
+@charset "utf-8";
+body,p,div,th,td,input,select,textarea,ul,li,a{ 
+	color:#333; 
+	font-size:12px;font-family:"宋体",Arial,Verdana; 
+	padding:0; margin:0;
+}
+
+ul{ list-style:none;}
+.cl,.clr{ clear:both; height:0px; font-size:0;}
+.disn{ display:none;}
+
+.menu_nav .allcate{ position:absolute; top:0; left:0px; z-index:101;}
+.menu_nav .allcate a.hover{ background-position:-210px -381px}
+.menu_nav ul{border-right:#83b712 6px solid; border-bottom:#83b712 6px solid; border-left:#83b712 5px solid; margin-top:50px; margin-left:10px;}
+.menu_nav ul li{ height:42px; line-height:42px; padding:0 0 0 13px; background:#f9ffdd url(../img/v5_main_img.png) no-repeat 0 -247px; position:relative; z-index:100;}
+.menu_nav ul li.over{ background-position:-203px -246px;}
+.menu_nav ul li a:link,.menu_nav ul li a:active,.menu_nav ul li a:visited{ font-size:15px; padding-left:12px;color:#333;}
+.menu_nav ul li a:hover{ font-size:15px; padding-left:12px; color:#669900;}
+.menu_nav ul li a strong{ font-weight:normal;}
+.menu_nav ul li.over a:link,.menu_nav ul li.over a:active,
+.menu_nav ul li.over a:visited,
+.menu_nav ul li.over a:hover{ font-size:15px; padding-left:12px; color:#fff;}
+.menu_nav .submenubox{ position:absolute; left:189px; top:1px; width:150px; border:#83b712 6px solid; background:#f9ffdd; float:left; line-height:0; overflow:hidden;}
+.menu_nav .submenubox .subcate{ width:150px; float:left;}
+.menu_nav .submenubox .subcate ul{ border:0; margin:0; padding:2px 0; background:#83b712; margin-bottom:-2000px; padding-bottom:2000px; position:relative;}
+.menu_nav .submenubox .subcate ul li{ background:none; height:auto; line-height:18px; padding:5px 0 5px 0px; position:static; z-index:auto; cursor:default;}
+.menu_nav ul li.over .subcate ul li a:link,
+.menu_nav ul li.over .subcate ul li a:active,
+.menu_nav ul li.over .subcate ul li a:visited{ font-size:14px; padding-left:12px; color:#fff;}
+.menu_nav ul li.over .subcate ul li a:hover{ color:#fff;}
+
+.menu_nav ul li.last .submenubox .subcate{ width:420px;}
+.menu_nav ul li.last .submenubox .subcate ul{ background:none; float:left;}
+.menu_nav ul li.last .submenubox .subcate ul li{ float:left; width:139px;}
+.menu_nav ul li.last .subcate ul li a:link,
+	.menu_nav ul li.last .subcate ul li a:active,
+	.menu_nav ul li.last .subcate ul li a:visited{ font-size:14px; padding-left:12px; color:#585858;}
+.menu_nav ul li.last .subcate ul li a:hover{ color:#669900;}
+
+.menu_nav{ width:210px; float:left; position:relative; z-index:101;}
+.menu_nav .allcate a{ display:block; width:210px; height:58px; background:url(../img/v5_main_img.png) no-repeat 0px -173px; text-indent:-9999px;}
+
+
