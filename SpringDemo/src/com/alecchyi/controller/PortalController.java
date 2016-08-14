@@ -121,6 +121,15 @@ public class PortalController {
 		return view;
 	}
 	
+	@RequestMapping("p_detail")
+	public ModelAndView pDetail(){
+		ModelAndView view = new ModelAndView("share/layout");
+		view.addObject("content_page", "/WEB-INF/page/product/p_detail.jsp");
+		view.addObject("page_title", "商品信息");
+		view.addObject("layout", "main");
+		return view;
+	}
+	
 	@RequestMapping("login")
 	public ModelAndView login(){
 		ModelAndView view = new ModelAndView("share/layout");

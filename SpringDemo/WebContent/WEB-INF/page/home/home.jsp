@@ -118,12 +118,9 @@
 			<img class="img-rounded" src="/img/placeholder.png"
 				alt="Generic placeholder image" width="240" height="140">
 			<h2>Heading</h2>
-			<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,
-				egestas eget quam. Vestibulum id ligula porta felis euismod semper.
-				Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
-				nibh, ut fermentum massa justo sit amet risus.</p>
+			<p>View Detail</p>
 			<p>
-				<a class="btn btn-default" href="#" role="button">View details
+				<a class="btn btn-default" href="/p_detail" role="button">View details
 					&raquo;</a>
 			</p>
 		</div>
